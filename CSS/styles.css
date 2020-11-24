@@ -40,12 +40,16 @@ hr {
     font-family: 'Montserrat', sans-serif;
     font-size: 3vw;
     margin-bottom: 0.1rem;
+    color: black;
+    text-decoration: none;
 }
 
 .project-desc {
     font-family: 'Montserrat', sans-serif;
     font-size: 2vw;
     max-width: 75%;
+    color: black;
+    text-decoration: none;
 }
 
 .project-image {
