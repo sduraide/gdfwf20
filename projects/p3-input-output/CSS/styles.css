@@ -35,8 +35,9 @@
     text-align: center;
     margin-top: 2vw;
     margin-bottom: 4vw;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Cinzel', serif;
     font-size: 3vw;
+    font-weight: 100;
 }
 
 #picHolder {
@@ -98,18 +99,26 @@ h2 {
     height: 265px;
 }
 
+.gallery-item video {
+    position: absolute;
+    width: 330px;
+    height: 265px;
+}
+
 .desc {
     color: #fff;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Fauna One', serif;
     text-align: center;
     font-size: 2vw;
+    font-weight: 100;
 }
 
 #header {
     color: #fff;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Cinzel', serif;
     text-align: center;
     font-size: 3vw;
+    font-weight: 100;
 }
 
 .text-wrapper {
@@ -122,7 +131,7 @@ h2 {
     text-align: center;
     color: #eee;
     font-weight: 400;
-    font-family: DomaineDisplay, Georgia, serif;
+    font-family: 'Fauna One', serif;
     transition: all 0.1s ease-in 0s;
     opacity: 0;
 }
@@ -140,10 +149,10 @@ h2 {
 
 @-webkit-keyframes STAR-MOVE {
     from {
-        background-position: 5% 5%
+        background-position: 1300% 600%
     }
     to {
-        background-position: 1300% 600%
+        background-position: 5% 5%
     }
 }
 
@@ -156,7 +165,33 @@ h2 {
     bottom: 0;
     z-index: 100;
     -webkit-animation-name: STAR-MOVE;
-    -webkit-animation-duration: 200s;
+    -webkit-animation-duration: 50s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
+}
+
+.slide-left {
+    width: 100%;
+}
+
+.slide-left p {
+    color: #fff;
+    background: -webkit-linear-gradient(#E8DBFC, #F8F9D2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.2vw;
+    font-family: 'Fauna One', serif;
+    animation: slide-left 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
