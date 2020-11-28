@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<title>Philadelphia</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fauna+One&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        function updateSlider(slideAmount) {
+            var image = document.getElementById("pic");
+            if (slideAmount >= 0 && slideAmount <= 5) {
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div1").fadeOut(800, function() {
+                    $("#div1").fadeIn(500);
+                    document.body.style.backgroundColor = "#f5d020";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #f5d020 0%, #f53803 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+            } else if (slideAmount > 5 && slideAmount <= 10) {
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div1").fadeOut(800, function() {
+                    $("#div2").fadeIn(500);
+                    document.body.style.backgroundColor = "#f53803";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #f9d29d 0%, #f5d020 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+            } else if (slideAmount > 10 && slideAmount <= 15) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div2").fadeOut(800, function() {
+                    $("#div4").fadeIn(500);
+                    document.body.style.backgroundColor = "#bbf0f3";
+                    document.body.style.backgroundImage = "linear-gradient(147deg, #f6d285 0%, #bbf0f3 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+            } else if (slideAmount > 15 && slideAmount <= 20) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div4").fadeOut(800, function() {
+                    $("#div3").fadeIn(500);
+                    document.body.style.backgroundColor = "#5ca0f2";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #FFFFFF 0%, #bbf0f3 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+            } else if (slideAmount > 20 && slideAmount <= 25) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div3").fadeOut(800, function() {
+                    $("#div5").fadeIn(500);
+                    document.body.style.backgroundColor = "#ffffff";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #d7e1ec 0%, #ffffff 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+            } else if (slideAmount > 25 && slideAmount <= 30) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div5").fadeOut(800, function() {
+                    $("#div8").fadeIn(500);
+                    document.body.style.backgroundColor = "#ffffff";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #d7e1ec 0%, #ffffff 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+            } else if (slideAmount > 30 && slideAmount <= 35) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div8").fadeOut(800, function() {
+                    $("#div6").fadeIn(500);
+                    document.body.style.backgroundColor = "#b8c6db";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #b8c6db 0%,#f5f7fa 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+                // image.src = "./images/new_york/6.jpg"
+
+            } else if (slideAmount > 35 && slideAmount <= 40) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div6").fadeOut(800, function() {
+                    $("#div7").fadeIn(500);
+                    document.body.style.backgroundColor = "#5ca0f2";
+                    document.body.style.backgroundImage = "linear-gradient(147deg, #FFFFFF 0%, #bbf0f3 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+                // image.src = "./images/new_york/8.jpg"
+
+            } else if (slideAmount > 40 && slideAmount <= 45) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div7").fadeOut(800, function() {
+                    $("#div10").fadeIn(500);
+                    document.body.style.backgroundColor = "#5ca0f2";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #bbf0f3 0%, #bbf0f3 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+                // image.src = "./images/new_york/13.jpeg"
+
+            } else if (slideAmount > 45 && slideAmount <= 50) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div10").fadeOut(800, function() {
+                    $("#div11").fadeIn(500);
+                    document.body.style.backgroundColor = "#ffffff";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #00A4E4 0%, #bbf0f3 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+                // image.src = "./images/new_york/9.jpeg"
+            } else if (slideAmount > 50 && slideAmount <= 55) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div11").fadeOut(800, function() {
+                    $("#div9").fadeIn(500);
+                    document.body.style.backgroundColor = "#f5f7f6";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #5ca0f2 0%, #00A4E4 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+                // image.src = "./images/new_york/12.jpeg"
+            } else if (slideAmount > 55 && slideAmount <= 60) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div9").fadeOut(800, function() {
+                    $("#div12").fadeIn(500);
+                    document.body.style.backgroundColor = "#f5f7f6";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #5ca0f2 0%, #00A4E4 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+                // image.src = "./images/new_york/11.png"
+
+            } else if (slideAmount > 60 && slideAmount <= 65) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div12").fadeOut(800, function() {
+                    $("#div13").fadeIn(500);
+                    document.body.style.backgroundColor = "#2876f9";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #2876f9 0%, #5ca0f2 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+                // image.src = "./images/new_york/10.jpg"
+
+            } else if (slideAmount > 65 && slideAmount <= 70) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div13").fadeOut(800, function() {
+                    $("#div14").fadeIn(500);
+                    document.body.style.backgroundColor = "#000000";
+                    document.body.style.backgroundImage = "linear-gradient(147deg, #2876f9 0%, #04619f 74%)";
+                    document.getElementById("header-text").style.color = "black";
+                    document.getElementById("time1").style.color = "black";
+                    document.getElementById("time2").style.color = "black";
+                });
+                // image.src = "./images/new_york/16.jpeg"
+
+            } else if (slideAmount > 70 && slideAmount <= 75) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div14").fadeOut(800, function() {
+                    $("#div15").fadeIn(500);
+                    document.body.style.backgroundColor = "#000000";
+                    document.body.style.backgroundImage = "linear-gradient(147deg, #04619f 0%, #000000 74%)";
+                    document.getElementById("header-text").style.color = "white";
+                    document.getElementById("time1").style.color = "white";
+                    document.getElementById("time2").style.color = "white";
+                });
+                // image.src = "./images/new_york/18.jpeg"
+
+            } else if (slideAmount > 75 && slideAmount <= 80) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div15").fadeOut(800, function() {
+                    $("#div16").fadeIn(500);
+                    document.body.style.backgroundColor = "#2234ae";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #2234ae 0%, #191714 74%)";
+                    document.getElementById("header-text").style.color = "white";
+                    document.getElementById("time1").style.color = "white";
+                    document.getElementById("time2").style.color = "white";
+                });
+                // image.src = "./images/new_york/17.jpeg"
+
+            } else if (slideAmount > 80 && slideAmount <= 85) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                $("#div16").fadeOut(800, function() {
+                    $("#div17").fadeIn(500);
+                    document.body.style.backgroundColor = "#130f40";
+                    document.body.style.backgroundImage = "linear-gradient(315deg, #000000 0% , #130f40 74%)";
+                    document.getElementById("header-text").style.color = "white";
+                    document.getElementById("time1").style.color = "white";
+                    document.getElementById("time2").style.color = "white";
+                });
+                // image.src = "./images/new_york/20.jpeg"
+
+            }
+        }
+    </script>
+</head>
+
+<body style="background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);">
+    <h1 id="header-text" style="text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    font-family: 'Cinzel', serif;
+    font-size: 3vw;
+    font-weight: 100; margin-left: 400px;">Welcome Home to Philly!</h1>
+    <div style="display: flex; flex-direction: row; justify-content: space-around;">
+        <div class="slider-holder">
+            <!-- <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p> -->
+            <input class="slider" type="range" min="0" max="90" step="5" value="0" oninput="updateSlider(this.value)" />
+            <!-- <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p> -->
+        </div>
+        <div id="div1">
+            <img id="pic" src="./images/philly/1.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div2" style="display: none;">
+            <img id="pic" src="./images/philly/2.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div3" style="display: none;">
+            <img id="pic" src="./images/philly/3.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div4" style="display: none;">
+            <img id="pic" src="./images/philly/4.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div5" style="display: none;">
+            <img id="pic" src="./images/philly/5.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div6" style="display: none;">
+            <img id="pic" src="./images/philly/6.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div7" style="display: none;">
+            <img id="pic" src="./images/philly/7.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div8" style="display: none;">
+            <img id="pic" src="./images/philly/8.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div9" style="display: none;">
+            <img id="pic" src="./images/philly/9.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div10" style="display: none;">
+            <img id="pic" src="./images/philly/10.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div11" style="display: none;">
+            <img id="pic" src="./images/philly/11.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div12" style="display: none;">
+            <img id="pic" src="./images/philly/12.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div13" style="display: none;">
+            <img id="pic" src="./images/philly/13.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div14" style="display: none;">
+            <img id="pic" src="./images/philly/14.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div15" style="display: none;">
+            <img id="pic" src="./images/philly/15.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div16" style="display: none;">
+            <img id="pic" src="./images/philly/16.jpg" width="1200vw" height="600vw" />
+        </div>
+        <div id="div17" style="display: none;">
+            <img id="pic" src="./images/philly/17.jpg" width="1200vw" height="600vw" />
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+        
+        .bg {
+            /* The image used */
+            background: url("./images/savannah.jpg") no-repeat center center fixed;
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+            z-index: 2;
+            cursor: pointer;
+        }
+        
+        .slider {
+            -webkit-appearance: none;
+            width: 800px;
+            height: 15px;
+            border-radius: 5px;
+            background: #d3d3d3;
+            outline: none;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+            /* transform: rotate(-270deg); */
+        }
+        
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            /* background: black; */
+            cursor: pointer;
+            background-color: #c73e1d;
+            background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+        }
+        
+        .slider::-moz-range-thumb {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            /* background: black; */
+            cursor: pointer;
+            background-color: #c73e1d;
+            background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+        }
+        
+        .slider-holder {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            list-style: none;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+
+    </div>
+
+</body>
+
+</html>

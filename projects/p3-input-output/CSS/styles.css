@@ -1,12 +1,13 @@
 .slider {
     -webkit-appearance: none;
-    width: 50%;
+    width: 400px;
     height: 15px;
     border-radius: 5px;
     background: #d3d3d3;
     outline: none;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    transform: rotate(-270deg);
 }
 
 .slider::-webkit-slider-thumb {
@@ -69,11 +70,12 @@ h2 {
 }
 
 .slider-holder {
-    display: flex;
+    /* display: flex;
     flex-flow: row wrap;
     justify-content: center;
     list-style: none;
-    margin-bottom: 4vw;
+    margin-bottom: 4vw; */
+    padding-top: 220px;
 }
 
 .container {
@@ -95,12 +97,20 @@ h2 {
 }
 
 .gallery-item {
-    width: 330px;
-    height: 265px;
-    margin: 20px;
-    text-decoration: none;
+    width: 350px;
+    height: 365px;
+    /* margin: 20px; */
+    /* text-decoration: none;
     outline-color: #eee;
-    outline-style: dotted;
+    outline-style: dotted; */
+    /* outline-width: 5px; */
+    background-color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff), linear-gradient(to right, #fff, #fff);
+    background-repeat: no-repeat;
+    background-position: 5% 5%, 15% 5%, 25% 5%, 35% 5%, 45% 5%, 55% 5%, 65% 5%, 75% 5%, 85% 5%, 95% 5%, 5% 95%, 15% 95%, 25% 95%, 35% 95%, 45% 95%, 55% 95%, 65% 95%, 75% 95%, 85% 95%, 95% 95%;
+    background-size: 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%, 5% 8%;
 }
 
 .gallery-item img {
@@ -111,12 +121,15 @@ h2 {
 
 .gallery-item video {
     position: absolute;
-    width: 330px;
-    height: 265px;
+    display: block;
+    width: 350px;
+    height: 365px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .desc {
-    color: #fff;
+    color: #000000;
     font-family: 'Fauna One', serif;
     text-align: center;
     font-size: 2vw;
@@ -124,17 +137,17 @@ h2 {
 }
 
 #header {
-    color: #fff;
+    color: #000000;
     font-family: 'Cinzel', serif;
     text-align: center;
     font-size: 3vw;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .text-wrapper {
     position: relative;
-    width: 330px;
-    height: 265px;
+    width: 350px;
+    height: 365px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,6 +163,7 @@ h2 {
     transition: all 0.5s ease;
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
+    text-decoration: none;
     opacity: 1;
 }
 
@@ -181,18 +195,16 @@ h2 {
 }
 
 .slide-left {
-    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .slide-left p {
-    color: #fff;
-    background: -webkit-linear-gradient(#E8DBFC, #F8F9D2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2.2vw;
+    color: #000000;
+    font-size: 2vw;
     font-family: 'Fauna One', serif;
-    animation: slide-left 7s linear;
-    animation-iteration-count: infinite;
+    /* animation: slide-left 7s linear;
+    animation-iteration-count: infinite; */
 }
 
 @keyframes slide-left {
@@ -204,4 +216,12 @@ h2 {
         margin-left: 0%;
         width: 100%;
     }
+}
+
+#div1 {
+    background-image: url("./images/philly/1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
