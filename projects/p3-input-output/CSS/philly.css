@@ -1,0 +1,392 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+#div1 {
+    /* The image used */
+    background: url("../images/philly/1.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div1a {
+    /* The image used */
+    background: url("../images/philly/1.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div2 {
+    /* The image used */
+    background: url("../images/philly/2.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+}
+
+#div3 {
+    /* The image used */
+    background: url("../images/philly/3.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+}
+
+#div4 {
+    /* The image used */
+    background: url("../images/philly/4.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+}
+
+#div5 {
+    /* The image used */
+    background: url("../images/philly/5.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+}
+
+#div6 {
+    /* The image used */
+    background: url("../images/philly/6.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+}
+
+#div7 {
+    /* The image used */
+    background: url("../images/philly/7.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+    display: none;
+}
+
+#div8 {
+    /* The image used */
+    background: url("../images/philly/8.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div9 {
+    /* The image used */
+    background: url("../images/philly/9.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div10 {
+    /* The image used */
+    background: url("../images/philly/10.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div11 {
+    /* The image used */
+    background: url("../images/philly/11.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div12 {
+    /* The image used */
+    background: url("../images/philly/12.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div13 {
+    /* The image used */
+    background: url("../images/philly/13.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div14 {
+    /* The image used */
+    background: url("../images/philly/14.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div15 {
+    /* The image used */
+    background: url("../images/philly/15.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div16 {
+    /* The image used */
+    background: url("../images/philly/16.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+#div17 {
+    /* The image used */
+    background: url("../images/philly/17.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    /* transform: rotate(-270deg); */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* background: black; */
+    cursor: pointer;
+    background-color: #c73e1d;
+    background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* background: black; */
+    cursor: pointer;
+    background-color: #c73e1d;
+    background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+}
+
+.slider-holder {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    list-style: none;
+    width: fit-content;
+    padding: 30px;
+    background-color: honeydew;
+    /* margin-top: 3vw; */
+}

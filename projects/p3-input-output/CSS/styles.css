@@ -7,7 +7,7 @@
     outline: none;
     -webkit-transition: .2s;
     transition: opacity .2s;
-    transform: rotate(-270deg);
+    /* transform: rotate(-270deg); */
 }
 
 .slider::-webkit-slider-thumb {
@@ -70,12 +70,14 @@ h2 {
 }
 
 .slider-holder {
-    /* display: flex;
+    display: flex;
     flex-flow: row wrap;
     justify-content: center;
     list-style: none;
-    margin-bottom: 4vw; */
-    padding-top: 220px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* margin-bottom: 4vw; */
+    /* padding-top: 220px; */
 }
 
 .container {
@@ -219,9 +221,20 @@ h2 {
 }
 
 #div1 {
-    background-image: url("./images/philly/1.jpg");
+    /* The image used */
+    background: url("../images/philly/1.jpg") no-repeat center center fixed;
+    /* Full height */
     height: 100%;
+    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 2;
+    cursor: pointer;
 }

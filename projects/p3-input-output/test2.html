@@ -3,80 +3,493 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body,
-        html {
-            height: 100%;
-            margin: 0;
+    <link rel="stylesheet" href="./CSS/philly.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fauna+One&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        function updateSlider(slideAmount) {
+            var image = document.getElementById("pic");
+            if (slideAmount >= 0 && slideAmount <= 5) {
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div1").fadeOut(800, function() {
+                    $("#div1a").fadeIn(500);
+                });
+            } else if (slideAmount > 5 && slideAmount <= 10) {
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div1a").fadeOut(800, function() {
+                    $("#div2").fadeIn(500);
+                });
+            } else if (slideAmount > 10 && slideAmount <= 15) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div2").fadeOut(800, function() {
+                    $("#div4").fadeIn(500);
+                });
+            } else if (slideAmount > 15 && slideAmount <= 20) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div4").fadeOut(800, function() {
+                    $("#div3").fadeIn(500);
+                });
+            } else if (slideAmount > 20 && slideAmount <= 25) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div3").fadeOut(800, function() {
+                    $("#div5").fadeIn(500);
+                });
+            } else if (slideAmount > 25 && slideAmount <= 30) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div5").fadeOut(800, function() {
+                    $("#div8").fadeIn(500);
+                });
+            } else if (slideAmount > 30 && slideAmount <= 35) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div8").fadeOut(800, function() {
+                    $("#div6").fadeIn(500);
+                });
+
+            } else if (slideAmount > 35 && slideAmount <= 40) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div6").fadeOut(800, function() {
+                    $("#div7").fadeIn(500);
+                });
+
+            } else if (slideAmount > 40 && slideAmount <= 45) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div7").fadeOut(800, function() {
+                    $("#div10").fadeIn(500);
+                });
+
+            } else if (slideAmount > 45 && slideAmount <= 50) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div10").fadeOut(800, function() {
+                    $("#div11").fadeIn(500);
+                });
+            } else if (slideAmount > 50 && slideAmount <= 55) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div11").fadeOut(800, function() {
+                    $("#div9").fadeIn(500);
+                });
+            } else if (slideAmount > 55 && slideAmount <= 60) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div9").fadeOut(800, function() {
+                    $("#div12").fadeIn(500);
+                });
+            } else if (slideAmount > 60 && slideAmount <= 65) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div12").fadeOut(800, function() {
+                    $("#div13").fadeIn(500);
+                });
+            } else if (slideAmount > 65 && slideAmount <= 70) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div13").fadeOut(800, function() {
+                    $("#div14").fadeIn(500);
+                });
+
+            } else if (slideAmount > 70 && slideAmount <= 75) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div16").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div14").fadeOut(800, function() {
+                    $("#div15").fadeIn(500);
+                });
+            } else if (slideAmount > 75 && slideAmount <= 80) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div17").style.display = "none";
+                $("#div15").fadeOut(800, function() {
+                    $("#div16").fadeIn(500);
+                });
+
+            } else if (slideAmount > 80 && slideAmount <= 85) {
+                document.getElementById("div1a").style.display = "none";
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div3").style.display = "none";
+                document.getElementById("div4").style.display = "none";
+                document.getElementById("div5").style.display = "none";
+                document.getElementById("div6").style.display = "none";
+                document.getElementById("div7").style.display = "none";
+                document.getElementById("div8").style.display = "none";
+                document.getElementById("div9").style.display = "none";
+                document.getElementById("div10").style.display = "none";
+                document.getElementById("div11").style.display = "none";
+                document.getElementById("div12").style.display = "none";
+                document.getElementById("div13").style.display = "none";
+                document.getElementById("div14").style.display = "none";
+                document.getElementById("div15").style.display = "none";
+                $("#div16").fadeOut(800, function() {
+                    $("#div17").fadeIn(500);
+                });
+
+            }
         }
-        
-        .bg {
-            /* The image used */
-            background: url("./images/savannah.jpg") no-repeat center center fixed;
-            /* Full height */
-            height: 100%;
-            /* Center and scale the image nicely */
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            display: block;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            /* background-color: rgba(0, 0, 0, 0.5); */
-            z-index: 2;
-            cursor: pointer;
-        }
-        
-        .slider {
-            -webkit-appearance: none;
-            width: 800px;
-            height: 15px;
-            border-radius: 5px;
-            background: #d3d3d3;
-            outline: none;
-            -webkit-transition: .2s;
-            transition: opacity .2s;
-            /* transform: rotate(-270deg); */
-        }
-        
-        .slider::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            /* background: black; */
-            cursor: pointer;
-            background-color: #c73e1d;
-            background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
-        }
-        
-        .slider::-moz-range-thumb {
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            /* background: black; */
-            cursor: pointer;
-            background-color: #c73e1d;
-            background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
-        }
-        
-        .slider-holder {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
-            list-style: none;
-            padding-bottom: 20px;
-            padding-top: 20px;
-        }
-    </style>
+    </script>
+
 </head>
 
 <body>
-    <div class="bg">
-
+    <div id="div1">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="0" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div1a">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="5" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div2">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="10" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div3">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="15" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div4">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="20" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div5">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="25" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div6">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="30" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div7">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="35" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div8">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="40" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div9">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="45" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div10">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="50" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div11">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="55" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div12">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="60" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div13">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="65" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div14">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="70" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div15">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="75" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div16">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="80" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
+    </div>
+    <div id="div17">
+        <div class="slider-holder">
+            <p id="time1" style="font-family: 'Fauna One', serif;">6:00 AM</p>
+            <input class="slider" type="range" min="0" max="90" step="5" value="85" oninput="updateSlider(this.value)" />
+            <p id="time2" style="font-family: 'Fauna One', serif;">11:00 PM</p>
+        </div>
     </div>
 
 </body>
