@@ -27,7 +27,8 @@
         <a href="./index.html" class="logo">Pierre Marcolini</a>
         <div class="header-right">
             <div class="dropdownListC">
-                <a href="" id="christmas"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Festivals</span></a>
+                <button id="christmas" style="border: none; background-color: #B3000C;"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Festivals</span></button>
+                <!-- <a href="" id="christmas"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Festivals</span></a> -->
                 <div class="dropdown-contentC">
                     <ul style="list-style: none;">
                         <a href="./christmas.html" style="color:white">Christmas</a>
@@ -37,8 +38,9 @@
                 </div>
             </div>
             <div class="dropdownListC">
-                <a href="" class="nav-link"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Recipes</span></a>
-                <div class="dropdown-contentC">
+                <button class="nav-link" style="border: none; background-color: #B3000C;"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Recipes</span></button>
+                <!-- <a href="" class="nav-link"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Recipes</span></a> -->
+                <div class="dropdown-contentC1">
                     <ul style="list-style: none;">
                         <a href="./christmasRecipe.html" style="color:white">Christmas</a>
                         <a href="./easterRecipe.html" style="color:white">Easter</a>
@@ -102,7 +104,27 @@
         </div>
 
     </div>
+    <script>
+        let dropBtn = document.querySelector('#christmas');
+        let menu = document.querySelector('.dropdown-contentC');
+        dropBtn.addEventListener('click', () => {
+            if (menu.style.display === "") {
+                menu.style.display = "block";
+            } else {
+                menu.style.display = "";
+            }
+        })
 
+        let dropBtn1 = document.querySelector('.nav-link');
+        let menu1 = document.querySelector('.dropdown-contentC1');
+        dropBtn1.addEventListener('click', () => {
+            if (menu1.style.display === "") {
+                menu1.style.display = "block";
+            } else {
+                menu1.style.display = "";
+            }
+        })
+    </script>
 </body>
 
 </html>

@@ -16,7 +16,8 @@
         <a href="./index.html" class="logo" style="font-family: 'Pinyon Script', cursive; font-size: 35px;">Pierre Marcolini</a>
         <div class="header-right">
             <div class="dropdownListE">
-                <a href=""><span style="color: #5E376D; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Festivals</span></a>
+                <button style="border: none; background-color: #ECFDF1;" id="easter1"><span style="color: #5E376D; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Festivals</span></span></button>
+                <!-- <a href=""><span style="color: #5E376D; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Festivals</span></a> -->
                 <div class="dropdown-contentE">
                     <ul style="list-style: none;">
                         <a href="./christmas.html" style="color:#d2ac47; font-family: 'Pinyon Script', cursive;">Christmas</a>
@@ -26,8 +27,9 @@
                 </div>
             </div>
             <div class="dropdownListE">
-                <a href="" class="nav-link"><span style="color:#5E376D; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Recipes</span></a>
-                <div class="dropdown-contentE">
+                <button style="border: none; background-color: #ECFDF1;" class="nav-link" style="color: #5E376D; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;"><span style="color: #5E376D; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Recipes</span></span></button>
+                <!-- <a href="" class="nav-link"><span style="color:#5E376D; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Recipes</span></a> -->
+                <div class="dropdown-contentE1">
                     <ul style="list-style: none;">
                         <a href="./christmasRecipe.html" style="color:#d2ac47; font-family: 'Pinyon Script', cursive;">Christmas</a>
                         <a href="./easterRecipe.html" style="color:#d2ac47; font-family: 'Pinyon Script', cursive;">Easter</a>
@@ -37,6 +39,8 @@
             </div>
         </div>
     </div>
+
+
 
     <h1 class="festival-title-easter">An Easter Egg Hunt? Yes please!</h1>
     <div class="tree" style="align-content: center;">
@@ -54,6 +58,28 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let dropBtn = document.querySelector('#easter1');
+        let menu = document.querySelector('.dropdown-contentE');
+        dropBtn.addEventListener('click', () => {
+            if (menu.style.display === "") {
+                menu.style.display = "block";
+            } else {
+                menu.style.display = "";
+            }
+        })
+
+        let dropBtn1 = document.querySelector('.nav-link');
+        let menu1 = document.querySelector('.dropdown-contentE1');
+        dropBtn1.addEventListener('click', () => {
+            if (menu1.style.display === "") {
+                menu1.style.display = "block";
+            } else {
+                menu1.style.display = "";
+            }
+        })
+    </script>
 
 </body>
 

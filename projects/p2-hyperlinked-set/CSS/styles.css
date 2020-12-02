@@ -787,10 +787,26 @@ video {
     z-index: 1;
 }
 
+.dropdown-contentR1 {
+    display: none;
+    position: absolute;
+    background-color: #d2ac47;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
 
 /* Links inside the dropdown */
 
 .dropdown-contentR a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-contentR1 a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
@@ -802,8 +818,15 @@ video {
     .dropdown-contentR a:hover {
         background-color: #C0C0C0;
     }
+    .dropdown-contentR1 a:hover {
+        background-color: #C0C0C0;
+    }
     /* Show the dropdown menu on hover */
     .dropdownListR:hover .dropdown-contentR {
+        display: block;
+        margin-top: 40px;
+    }
+    .dropdownListR:hover .dropdown-contentR1 {
         display: block;
         margin-top: 40px;
     }
@@ -833,10 +856,26 @@ video {
     z-index: 1;
 }
 
+.dropdown-contentC1 {
+    display: none;
+    position: absolute;
+    background-color: #0BE841;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
 
 /* Links inside the dropdown */
 
 .dropdown-contentC a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-contentC1 a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
@@ -848,8 +887,16 @@ video {
     .dropdown-contentC a:hover {
         background-color: #B3000C;
     }
+    .dropdown-contentC1 a:hover {
+        background-color: #B3000C;
+    }
     /* Show the dropdown menu on hover */
     .dropdownListC:hover .dropdown-contentC {
+        display: block;
+        margin-top: 40px;
+    }
+    /* Show the dropdown menu on hover */
+    .dropdownListC:hover .dropdown-contentC1 {
         display: block;
         margin-top: 40px;
     }
@@ -879,10 +926,26 @@ video {
     z-index: 1;
 }
 
+.dropdown-contentE1 {
+    display: none;
+    position: absolute;
+    background-color: #5E376D;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
 
 /* Links inside the dropdown */
 
 .dropdown-contentE a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-contentE1 a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
@@ -894,8 +957,15 @@ video {
     .dropdown-contentE a:hover {
         background-color: #ECFDF1;
     }
+    .dropdown-contentE1 a:hover {
+        background-color: #ECFDF1;
+    }
     /* Show the dropdown menu on hover */
     .dropdownListE:hover .dropdown-contentE {
+        display: block;
+        margin-top: 40px;
+    }
+    .dropdownListE:hover .dropdown-contentE1 {
         display: block;
         margin-top: 40px;
     }

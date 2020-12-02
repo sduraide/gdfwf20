@@ -5,6 +5,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
+    <style>
+        .menu-btn {
+            background-color: #7e32d4;
+            color: white;
+            padding: 16px;
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: none;
+        }
+        
+        .dropdown-menu {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .menu-content {
+            display: none;
+            position: absolute;
+            background-color: #017575;
+            min-width: 160px;
+            z-index: 1;
+        }
+        
+        .links {
+            color: rgb(255, 255, 255);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+            border-bottom: 1px solid black;
+        }
+        
+        .links:hover {
+            background-color: rgb(8, 107, 46);
+        }
+        
+        .dropdown-menu:hover .menu-btn {
+            background-color: #3e8e41;
+        }
+    </style>
     <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,7 +94,8 @@
         <a href="./index.html" class="logo">Pierre Marcolini</a>
         <div class="header-right">
             <div class="dropdownListC">
-                <a href="" id="christmas"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Festivals</span></a>
+                <button id="christmas" style="border: none; background-color: #B3000C;"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Festivals</span></button>
+                <!-- <a href="" id="christmas"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Festivals</span></a> -->
                 <div class="dropdown-contentC">
                     <ul style="list-style: none;">
                         <a href="./christmas.html" style="color:white">Christmas</a>
@@ -62,8 +105,9 @@
                 </div>
             </div>
             <div class="dropdownListC">
-                <a href="" class="nav-link"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Recipes</span></a>
-                <div class="dropdown-contentC">
+                <button class="nav-link" style="border: none; background-color: #B3000C;"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Recipes</span></button>
+                <!-- <a href="" class="nav-link"><span style="color: white; font-size: 25px; font-family: 'Pinyon Script', cursive; margin-right: 50px;">Recipes</span></a> -->
+                <div class="dropdown-contentC1">
                     <ul style="list-style: none;">
                         <a href="./christmasRecipe.html" style="color:white">Christmas</a>
                         <a href="./easterRecipe.html" style="color:white">Easter</a>
@@ -79,6 +123,28 @@
     <div class="tree" style="align-content: center;">
         <a href="./christmasRecipe.html"><img class="festival-img" src="./images/christmasTree.png"></a>
     </div>
+
+    <script>
+        let dropBtn = document.querySelector('#christmas');
+        let menu = document.querySelector('.dropdown-contentC');
+        dropBtn.addEventListener('click', () => {
+            if (menu.style.display === "") {
+                menu.style.display = "block";
+            } else {
+                menu.style.display = "";
+            }
+        })
+
+        let dropBtn1 = document.querySelector('.nav-link');
+        let menu1 = document.querySelector('.dropdown-contentC1');
+        dropBtn1.addEventListener('click', () => {
+            if (menu1.style.display === "") {
+                menu1.style.display = "block";
+            } else {
+                menu1.style.display = "";
+            }
+        })
+    </script>
 
 </body>
 
