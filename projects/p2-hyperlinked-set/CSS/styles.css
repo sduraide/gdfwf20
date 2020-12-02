@@ -815,25 +815,25 @@ video {
 
 @media (hover: hover) {
     /* Change color of dropdown links on hover */
-    .dropdown-contentR a:hover {
+    /* .dropdown-contentR a:hover {
         background-color: #C0C0C0;
     }
     .dropdown-contentR1 a:hover {
         background-color: #C0C0C0;
-    }
+    } */
     /* Show the dropdown menu on hover */
-    .dropdownListR:hover .dropdown-contentR {
+    /* .dropdownListR:hover .dropdown-contentR {
         display: block;
         margin-top: 40px;
     }
     .dropdownListR:hover .dropdown-contentR1 {
         display: block;
         margin-top: 40px;
-    }
+    } */
     /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdownListR:hover .dropbtnR {
+    /* .dropdownListR:hover .dropbtnR {
         background-color: #d2ac47;
-    }
+    } */
 }
 
 
@@ -884,26 +884,26 @@ video {
 
 @media (hover: hover) {
     /* Change color of dropdown links on hover */
-    .dropdown-contentC a:hover {
+    /* .dropdown-contentC a:hover {
         background-color: #B3000C;
     }
     .dropdown-contentC1 a:hover {
         background-color: #B3000C;
-    }
+    } */
     /* Show the dropdown menu on hover */
-    .dropdownListC:hover .dropdown-contentC {
+    /* .dropdownListC:hover .dropdown-contentC {
         display: block;
         margin-top: 40px;
-    }
+    } */
     /* Show the dropdown menu on hover */
-    .dropdownListC:hover .dropdown-contentC1 {
+    /* .dropdownListC:hover .dropdown-contentC1 {
         display: block;
         margin-top: 40px;
-    }
+    } */
     /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdownListC:hover .dropbtnC {
+    /* .dropdownListC:hover .dropbtnC {
         background-color: #0BE841;
-    }
+    } */
 }
 
 
@@ -954,23 +954,27 @@ video {
 
 @media (hover: hover) {
     /* Change color of dropdown links on hover */
-    .dropdown-contentE a:hover {
+    /* .dropdown-contentE a:hover {
         background-color: #ECFDF1;
     }
     .dropdown-contentE1 a:hover {
         background-color: #ECFDF1;
-    }
+    } */
     /* Show the dropdown menu on hover */
-    .dropdownListE:hover .dropdown-contentE {
+    /* .dropdownListE:hover .dropdown-contentE {
         display: block;
         margin-top: 40px;
     }
     .dropdownListE:hover .dropdown-contentE1 {
         display: block;
         margin-top: 40px;
-    }
+    } */
     /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdownListE:hover .dropbtnE {
+    /* .dropdownListE:hover .dropbtnE {
         background-color: #5E376D;
-    }
+    } */
+}
+
+button {
+    cursor: pointer;
 }
