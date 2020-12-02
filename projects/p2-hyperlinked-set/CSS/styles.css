@@ -55,12 +55,12 @@ video {
 }
 
 .landing {
-    font-family: 'serif';
     color: white;
     text-decoration: none;
-    font-size: x-large;
     padding-left: 12px;
     text-decoration: underline;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 30px;
 }
 
 .landing:hover {
@@ -176,10 +176,80 @@ video {
     color: #d2ac47;
 }
 
+#header-text {
+    text-align: center;
+    font-family: 'Nosifer';
+    color: #561a0a;
+    padding-bottom: 50px;
+    font-size: 70px;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+#celebrate {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: white;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.festival-title {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+}
+
+.festival-title-easter {
+    color: #5E376D;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+}
+
+.festival-title-ramadan {
+    color: #C0C0C0;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+}
+
+.recipe-title-ramadan {
+    color: #C0C0C0;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+}
+
+.recipe-title-christmas {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+}
+
+.recipe-title-easter {
+    color: #5E376D;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+}
+
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .header a {
         float: none;
         display: block;
@@ -192,6 +262,56 @@ video {
         float: none;
         display: block;
         text-align: left;
+    }
+    #header-text {
+        font-size: 30px;
+        /* color: #fff; */
+        padding-bottom: 10px;
+    }
+    #celebrate {
+        font-size: 25px;
+        margin-left: 2vw;
+        margin-right: 2vw
+    }
+    .landing {
+        font-size: 20px;
+    }
+    .gallery-item {
+        width: 250px;
+        height: 150px;
+    }
+    .festival-title {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .festival-title-ramadan {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .festival-title-easter {
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+    .festival-img {
+        margin-top: 0px;
+        width: 300px;
+        height: 400px;
+    }
+    .recipe-title-ramadan {
+        font-size: 40px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .recipe-title-christmas {
+        font-size: 40px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .recipe-title-easter {
+        font-size: 40px;
+        margin-top: 50px;
+        margin-left: 0px;
     }
 }
 
