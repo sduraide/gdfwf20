@@ -401,11 +401,7 @@ html {
 }
 
 a {
-    background: -webkit-linear-gradient(#a23b72, #2e86ab);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: underline;
-    font-family: 'Fauna One', serif;
+    color: purple;
 }
 
 #time1 {
