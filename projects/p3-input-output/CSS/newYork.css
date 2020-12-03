@@ -401,7 +401,25 @@ html {
 }
 
 a {
-    color: black;
+    background: -webkit-linear-gradient(#a23b72, #2e86ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    font-family: 'Fauna One', serif;
+}
+
+#time1 {
+    background: -webkit-linear-gradient(#a23b72, #2e86ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Fauna One', serif;
+}
+
+#time2 {
+    background: -webkit-linear-gradient(#a23b72, #2e86ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Fauna One', serif;
 }
 
 #header-text {
@@ -411,4 +429,59 @@ a {
     font-weight: 100;
     color: black;
     background-color: #deceb7;
+}
+
+#headerText {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5vw;
+    font-weight: 100;
+    background: -webkit-linear-gradient(#a23b72, #2e86ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #deceb7;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.links {
+    font-family: 'Fauna One', serif;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #headerText {
+        font-size: 3.5vw;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .links {
+        font-size: 3vw;
+    }
+    #time1 {
+        font-size: 3vw;
+    }
+    #time2 {
+        font-size: 3vw;
+    }
+    .slider {
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    #headerText {
+        font-size: 3.5vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .links {
+        font-size: 2.5vw;
+    }
+    #time1 {
+        font-size: 2.5vw;
+    }
+    #time2 {
+        font-size: 2.5vw;
+    }
 }

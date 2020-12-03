@@ -173,29 +173,6 @@ h2 {
     font-size: 1.5em;
 }
 
-@-webkit-keyframes STAR-MOVE {
-    from {
-        background-position: 1300% 600%
-    }
-    to {
-        background-position: 5% 5%
-    }
-}
-
-#background {
-    background: black url(../images/background.png) repeat 5% 5%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-    -webkit-animation-name: STAR-MOVE;
-    -webkit-animation-duration: 50s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-}
-
 .slide-left {
     display: flex;
     justify-content: center;
@@ -238,3 +215,20 @@ h2 {
     z-index: 2;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    .gallery-item {
+        width: 200px;
+        height: 150px;
+    }
+    .gallery-item video {
+        width: 200px;
+        height: 150px;
+    }
+    .text-wrapper {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {}
